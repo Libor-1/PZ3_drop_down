@@ -1,0 +1,49 @@
+.wrapper ul{
+    list-style: none;
+    margin-top: 5px;
+    
+    
+}
+.main {
+    margin-left: 50px;
+}
+
+.wrapper ul li{
+    background: rgb(22, 21, 21);
+    width: 200px;
+    border: 1px solid white;
+    height: 50px;
+    line-height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    float: left;
+    font-size: 15px;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 8px;
+    
+}
+
+li a{
+
+    color: red;
+}
+
+.wrapper ul li:hover{
+background:greenyellow;
+}
+
+.wrapper ul ul{
+    display: none;
+}
+
+.wrapper ul li:hover > ul{
+    display: block;
+}
+
+.wrapper ul ul ul{
+    margin-left: 170px;
+    top: 0;
+    position: 0;
+}
+
